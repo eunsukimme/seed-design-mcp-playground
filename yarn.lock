@@ -5,8 +5,63 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
+"@seed-design/css@npm:0.1.8":
+  version: 0.1.8
+  resolution: "@seed-design/css@npm:0.1.8"
+  checksum: 10c0/d0f8c99397541c79802c5a2fabf3c4db6d821cf578acb1f494c401d2644f7e0f504bbd3a7da9cbf594803d6f8234ac280ee39619bf81abde8b939155d6f1e169
+  languageName: node
+  linkType: hard
+
+"@seed-design/figma@npm:^0.1.8":
+  version: 0.1.8
+  resolution: "@seed-design/figma@npm:0.1.8"
+  dependencies:
+    "@seed-design/css": "npm:0.1.8"
+    change-case: "npm:^5.4.4"
+    ts-pattern: "npm:^5.7.0"
+  checksum: 10c0/a8f718e731ec75dad94dfbd0a1601c86d4dcd7a53bcbd946d086c1291d056481aadf8722fa19b2f65de93bc9a11e120703cbdaccbe84a18db78adaf506eeaa7a
+  languageName: node
+  linkType: hard
+
+"change-case@npm:^5.4.4":
+  version: 5.4.4
+  resolution: "change-case@npm:5.4.4"
+  checksum: 10c0/2a9c2b9c9ad6ab2491105aaf506db1a9acaf543a18967798dcce20926c6a173aa63266cb6189f3086e3c14bf7ae1f8ea4f96ecc466fcd582310efa00372f3734
+  languageName: node
+  linkType: hard
+
 "seed-design-mcp-playground@workspace:.":
   version: 0.0.0-use.local
   resolution: "seed-design-mcp-playground@workspace:."
+  dependencies:
+    "@seed-design/figma": "npm:^0.1.8"
+    typescript: "npm:^5.9.2"
   languageName: unknown
   linkType: soft
+
+"ts-pattern@npm:^5.7.0":
+  version: 5.8.0
+  resolution: "ts-pattern@npm:5.8.0"
+  checksum: 10c0/0e41006a8de7490c7edbba36c095550cd4b0e334247f9e76cddbdaadea4bcdc479763fb403a787db19bb83480c02fe6ea0e9799ceaaba0573acbe31e341ab947
+  languageName: node
+  linkType: hard
+
+"typescript@npm:^5.9.2":
+  version: 5.9.2
+  resolution: "typescript@npm:5.9.2"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 10c0/cd635d50f02d6cf98ed42de2f76289701c1ec587a363369255f01ed15aaf22be0813226bff3c53e99d971f9b540e0b3cc7583dbe05faded49b1b0bed2f638a18
+  languageName: node
+  linkType: hard
+
+"typescript@patch:typescript@npm%3A^5.9.2#optional!builtin<compat/typescript>":
+  version: 5.9.2
+  resolution: "typescript@patch:typescript@npm%3A5.9.2#optional!builtin<compat/typescript>::version=5.9.2&hash=5786d5"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 10c0/34d2a8e23eb8e0d1875072064d5e1d9c102e0bdce56a10a25c0b917b8aa9001a9cf5c225df12497e99da107dc379360bc138163c66b55b95f5b105b50578067e
+  languageName: node
+  linkType: hard
