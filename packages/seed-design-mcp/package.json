@@ -1,0 +1,12 @@
+{
+  "name": "seed-design-mcp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "bunx --bun @seed-design/mcp@alpha --config ./src/config.ts"
+  },
+  "devDependencies": {
+    "@seed-design/figma": "^0.1.8",
+    "typescript": "^5.9.2"
+  }
+}

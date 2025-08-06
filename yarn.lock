@@ -33,6 +33,12 @@ __metadata:
 "seed-design-mcp-playground@workspace:.":
   version: 0.0.0-use.local
   resolution: "seed-design-mcp-playground@workspace:."
+  languageName: unknown
+  linkType: soft
+
+"seed-design-mcp@workspace:packages/seed-design-mcp":
+  version: 0.0.0-use.local
+  resolution: "seed-design-mcp@workspace:packages/seed-design-mcp"
   dependencies:
     "@seed-design/figma": "npm:^0.1.8"
     typescript: "npm:^5.9.2"

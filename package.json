@@ -1,11 +1,7 @@
 {
   "name": "seed-design-mcp-playground",
   "packageManager": "yarn@4.9.1",
-  "scripts": {
-    "start": "bunx --bun @seed-design/mcp@latest --config ./config.ts"
-  },
-  "devDependencies": {
-    "@seed-design/figma": "^0.1.8",
-    "typescript": "^5.9.2"
-  }
+  "workspaces": [
+    "packages/*"
+  ]
 }
